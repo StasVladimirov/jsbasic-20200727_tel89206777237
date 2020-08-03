@@ -3,6 +3,12 @@
  * @param {number} n
  * @returns {number}
  */
-function factorial(n) {
-  // ваш код...
+function factorial(n){
+  let a = n;
+  while(a>1){
+    a--;
+    n*=a;
+    
+  }
+   return n;
 }
