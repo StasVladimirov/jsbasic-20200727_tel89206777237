@@ -11,7 +11,7 @@ function print(text) {
  */
 function isValid(name){
   if(name!=='' && name.length>3 && name.indexOf(" ")==-1){
-  return name
+  return true
   }
 }
 
